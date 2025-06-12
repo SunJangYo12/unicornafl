@@ -18,7 +18,7 @@ termux-unicorn/build/libunicorn-common.a:
 	$(MAKE) -C ./build/unicorn
 
 
-termux-build/libunicornafl: build unicorn/build/libunicorn-common.a
+termux-build/libunicornafl: build termux-unicorn/build/libunicorn-common.a
 	cd ./build && cmake \
           -DANDROID_PLATFORM=31 \
           -DCMAKE_TOOLCHAIN_FILE=/media/jin/4abb279b-6d65-4663-97c2-26987f64673a/home/yuna/LabTes/fuzzing-firmware/termux/android-ndk-r25c/build/cmake/android.toolchain.cmake \
