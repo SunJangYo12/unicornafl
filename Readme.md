@@ -6,6 +6,11 @@ You can fuzz unicorn targets using python, rust, and C.
 Check out [the examples](https://github.com/AFLplusplus/AFLplusplus/tree/stable/unicorn_mode/samples) in AFLplusplus/unicorn_mode
 
 ## Compile
+Build for termux, result in build folder:
+```bash
+make termux
+```
+
 
 If you have unicorn installed globally, you may just:
 
